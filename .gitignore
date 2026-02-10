@@ -1,0 +1,45 @@
+### Node / npm / Yarn
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+pnpm-lock.yaml
+
+### Build outputs
+dist/
+build/
+.serverless/
+.webpack/
+coverage/
+
+### Environment & local config
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+
+### Logs & runtime files
+logs/
+*.log
+*.tmp
+*.pid
+
+### IDE & editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.history/
+
+### OS files
+.DS_Store
+Thumbs.db
+
+### AWS / SAM / CDK (if used later)
+.aws-sam/
+.cdk.out/
+
+dist
+*.zip
